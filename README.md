@@ -4,9 +4,9 @@
 
 ## Hello, I am Finnley
 
-I am a **Data & AI Engineer at UBS** who enjoys turning repetitive, awkward, or interesting problems into focused software. My work centres on full-stack applications, AI-assisted tools, developer automation, cloud delivery, and the occasional desktop app or game mod.
+I am a **Data & AI Engineer** who enjoys turning repetitive, awkward, or interesting problems into focused software. My work centres on full-stack applications, AI-assisted tools, developer automation, cloud delivery, and the occasional desktop app or game mod.
 
-[Explore my portfolio](https://git.finnley.co.uk/) · [Browse my repositories](https://github.com/KeyErrorFinn?tab=repositories)
+[Browse my repositories](https://github.com/KeyErrorFinn?tab=repositories)
 
 ### What I work with
 
@@ -32,7 +32,7 @@ I care about clear interfaces, sensible system boundaries, failure recovery, and
 
 A browser-based editor for opening, inspecting, changing, and exporting Stream Deck profiles without needing the physical device. It handles profile archives, nested folders, multiple grid sizes, plugin actions, image assets, and local workspace persistence entirely in the browser.
 
-**React · TypeScript · Vite · archive processing** · [Try the live editor](https://git.finnley.co.uk/online-elgato-streamdeck-editor/)
+**React · TypeScript · Vite · archive processing**
 
 ### [RPUK Screenshot Cropper](https://github.com/KeyErrorFinn/rpuk-screenshot-cropper)
 
@@ -50,7 +50,7 @@ A BepInEx mod that integrates with a Unity game's existing trader flow. It finds
 
 A React application that turns game logs and spreadsheet rows into weekly bills, contact lists, and ready-to-review messages. The project replaced a long manual workflow with deterministic browser-side parsing.
 
-**React · TypeScript · Vite · Sass** · [Open the live app](https://git.finnley.co.uk/rpuk-park-ranger-bills/)
+**React · TypeScript · Vite · Sass**
 
 ## Currently building
 
