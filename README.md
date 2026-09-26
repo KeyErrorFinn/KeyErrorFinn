@@ -1,83 +1,82 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Finnley, software developer" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Finnley, Data and AI Engineer" width="100%" />
 </p>
 
-<p align="center">
-  I turn repetitive, awkward, or interesting problems into focused software.
-  <br />
-  Desktop tools, web apps, native mobile projects, automation, and C# game mods.
-</p>
+## Hello, I am Finnley
 
-<p align="center">
-  <a href="https://git.finnley.co.uk/"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/KeyErrorFinn?tab=repositories"><strong>Repositories</strong></a>
-</p>
+I am a **Data & AI Engineer at UBS** who enjoys turning repetitive, awkward, or interesting problems into focused software. My work centres on full-stack applications, AI-assisted tools, developer automation, cloud delivery, and the occasional desktop app or game mod.
 
-## Currently building
+[Explore my portfolio](https://git.finnley.co.uk/) · [Browse my repositories](https://github.com/KeyErrorFinn?tab=repositories)
 
-These projects are still in development and are not publicly released yet.
-
-| Project | What I am building | Engineering focus |
-| --- | --- | --- |
-| **WoL Plus** | An Alexa Smart Home skill and Windows companion for securely waking, monitoring, and shutting down registered computers. | AWS Lambda, DynamoDB, API Gateway WebSockets, SST, Python, React, TypeScript, Rust, Tauri |
-| **RepQuest** | An Android-first, offline workout tracker that turns training into a lightweight role-playing game with routines, quests, XP, cosmetics, achievements, and a weekly boss. | React, TypeScript, Tauri, Rust, SQLite, Android, offline-first architecture |
-
-<details>
-<summary><strong>What makes those projects interesting?</strong></summary>
-
-<br />
-
-**WoL Plus** combines cloud infrastructure with a native Windows agent. It uses authenticated short-lived connection tickets, durable shutdown commands, event-driven device presence, reconnect recovery, transactional writes, and shared operational monitoring.
-
-**RepQuest** keeps workout data on the device while separating the React interface from native persistence. Important workout completion, reward, personal-record, and progression updates are handled transactionally so retries cannot duplicate XP or coins.
-
-</details>
-
-## Pick a project
-
-| If you want to see... | Start here |
-| --- | --- |
-| Browser-side archive processing and a detailed editor interface | [Online Stream Deck Editor](https://github.com/KeyErrorFinn/online-elgato-streamdeck-editor), [live demo](https://git.finnley.co.uk/online-elgato-streamdeck-editor/) |
-| Electron process boundaries, image processing, and desktop performance work | [RPUK Screenshot Cropper](https://github.com/KeyErrorFinn/rpuk-screenshot-cropper) |
-| C# game integration and careful item-safety rules | [How to QuickSell](https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod) |
-| React data parsing for a real community workflow | [Park Ranger Bills Helper](https://github.com/KeyErrorFinn/rpuk-park-ranger-bills), [live demo](https://git.finnley.co.uk/rpuk-park-ranger-bills/) |
-| Unity asset replacement, skins, configuration, and custom controls | [How to Karambit](https://github.com/KeyErrorFinn/how-to-fish-karambit-mod) |
-| A collaborative Python learning project | [Order Book Project](https://github.com/KeyErrorFinn/mthree-order-book-project) |
-
-## The toolbox
+### What I work with
 
 <p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" />
   <img alt="React" src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img alt="Azure" src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=fff" />
+  <img alt="GitLab CI" src="https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=fff" />
   <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=fff" />
   <img alt="Tauri" src="https://img.shields.io/badge/Tauri-FFC131?logo=tauri&logoColor=111827" />
   <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=fff" />
   <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=fff" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" />
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=fff" />
 </p>
 
-I care about clear interfaces, sensible boundaries, failure recovery, local-first behaviour where it fits, and documentation that tells the truth about what is tested.
+I care about clear interfaces, sensible system boundaries, failure recovery, and documentation that is honest about what has actually been tested.
 
-<details>
-<summary><strong>A quick look behind the code</strong></summary>
+## Featured work
 
-<br />
+### [Online Stream Deck Editor](https://github.com/KeyErrorFinn/online-elgato-streamdeck-editor)
 
-Recent work has included:
+A browser-based editor for opening, inspecting, changing, and exporting Stream Deck profiles without needing the physical device. It handles profile archives, nested folders, multiple grid sizes, plugin actions, image assets, and local workspace persistence entirely in the browser.
 
-* Designing authenticated WebSocket recovery and idempotent command handling
-* Keeping Electron filesystem access behind a context-isolated preload bridge
-* Improving cold-start performance for large screenshot libraries
-* Building retry-safe workout rewards with Rust and SQLite transactions
-* Working with Unity internals through BepInEx and Harmony
-* Adding build checks that caught real cross-platform failures
+**React · TypeScript · Vite · archive processing** · [Try the live editor](https://git.finnley.co.uk/online-elgato-streamdeck-editor/)
 
-</details>
+### [RPUK Screenshot Cropper](https://github.com/KeyErrorFinn/rpuk-screenshot-cropper)
 
-## Say hello
+An Electron desktop application for reviewing, cropping, and organising large screenshot batches. Filesystem and image-processing operations stay in the main process behind a context-isolated preload bridge, while cached metadata and lightweight thumbnails keep large folders responsive.
 
-I am open to junior software development opportunities where I can keep learning and ship useful work.
+**Electron · React · Sharp · Vitest · Playwright**
 
-The easiest way to explore what I build is through [my portfolio](https://git.finnley.co.uk/) or the project links above.
+### [How to QuickSell](https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod)
+
+A BepInEx mod that integrates with a Unity game's existing trader flow. It finds eligible items across inventory, held, and nearby-world sources while protecting quest items and preventing duplicate sale candidates.
+
+**C# · .NET Framework · BepInEx · Harmony · Unity**
+
+### [Park Ranger Bills Helper](https://github.com/KeyErrorFinn/rpuk-park-ranger-bills)
+
+A React application that turns game logs and spreadsheet rows into weekly bills, contact lists, and ready-to-review messages. The project replaced a long manual workflow with deterministic browser-side parsing.
+
+**React · TypeScript · Vite · Sass** · [Open the live app](https://git.finnley.co.uk/rpuk-park-ranger-bills/)
+
+## Currently building
+
+### WoL Plus
+
+An Alexa Smart Home skill and Windows companion for securely waking, monitoring, and shutting down registered computers. It combines AWS Lambda, DynamoDB, API Gateway WebSockets, SST, Python, React, TypeScript, Rust, and Tauri, with a focus on authenticated connections and reliable command delivery.
+
+### RepQuest
+
+An Android-first, offline workout tracker that turns training into a lightweight role-playing game. React and TypeScript provide the interface, while Tauri, Rust, and SQLite handle native persistence and transactional workout, reward, and progression updates.
+
+Both projects are still in active development, so their source code is not publicly available yet.
+
+## Other things I have explored
+
+- [How to Karambit](https://github.com/KeyErrorFinn/how-to-fish-karambit-mod), Unity asset replacement, skins, configuration, and custom controls.
+- [RPUK ME Command Visualiser](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser), a React interface for composing and previewing formatted in-game text.
+- [Order Book Project](https://github.com/KeyErrorFinn/mthree-order-book-project), a collaborative Python and Streamlit learning project.
+- [Aldi Schedule to Google Calendar](https://github.com/KeyErrorFinn/aldi-schedule-to-google-calender), OCR and image-processing automation for personal calendar entry.
+
+## How I approach engineering
+
+- Keep privileged filesystem and native operations behind narrow interfaces.
+- Automate repetitive work when the automation will be easier to trust than the manual process.
+- Build recovery paths for network, storage, and deployment failures.
+- Learn unfamiliar systems by inspecting their real behaviour rather than guessing.
+- Document limitations and validation as carefully as features.
+
+I am open to permanent software engineering, full-stack, AI engineering, and automation-focused opportunities in London or hybrid roles.
