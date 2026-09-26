@@ -39,7 +39,7 @@
   <text x="78" y="220" fill="#e5e7eb" font-family="Cascadia Code, Consolas, monospace" font-size="22">software developer · practical tools · thoughtful interfaces</text>
   <rect class="cursor" x="866" y="201" width="13" height="24" rx="2" fill="#c084fc"/>
 
-  <g transform="translate(840 110)">
+  <g transform="translate(840 80)">
     <rect width="280" height="92" rx="12" fill="#111827" stroke="#334155"/>
     <text x="20" y="34" fill="#6cb6ff" font-family="Cascadia Code, Consolas, monospace" font-size="16">status</text>
     <text x="20" y="66" fill="#f8fafc" font-family="Cascadia Code, Consolas, monospace" font-size="16">building useful things</text>
