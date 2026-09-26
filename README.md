@@ -69,7 +69,7 @@ Both projects are still in active development, so their source code is not publi
 - [How to Karambit](https://github.com/KeyErrorFinn/how-to-fish-karambit-mod), Unity asset replacement, skins, configuration, and custom controls.
 - [RPUK ME Command Visualiser](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser), a React interface for composing and previewing formatted in-game text.
 - [Order Book Project](https://github.com/KeyErrorFinn/mthree-order-book-project), a collaborative Python and Streamlit learning project.
-- [Aldi Schedule to Google Calendar](https://github.com/KeyErrorFinn/aldi-schedule-to-google-calender), OCR and image-processing automation for personal calendar entry.
+- [Aldi Schedule to Google Calendar](https://github.com/KeyErrorFinn/aldi-schedule-to-google-calendar), OCR and image-processing automation for personal calendar entry.
 
 ## How I approach engineering
 
