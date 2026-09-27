@@ -34,6 +34,8 @@ A browser-based editor for opening, inspecting, changing, and exporting Stream D
 
 **React · TypeScript · Vite · archive processing**
 
+[Try the live editor](https://git.finnley.co.uk/online-elgato-streamdeck-editor/)
+
 ### [RPUK Screenshot Cropper](https://github.com/KeyErrorFinn/rpuk-screenshot-cropper)
 
 An Electron desktop application for reviewing, cropping, and organising large screenshot batches. Filesystem and image-processing operations stay in the main process behind a context-isolated preload bridge, while cached metadata and lightweight thumbnails keep large folders responsive.
@@ -52,6 +54,8 @@ A React application that turns game logs and spreadsheet rows into weekly bills,
 
 **React · TypeScript · Vite · Sass**
 
+[Open the live app](https://git.finnley.co.uk/rpuk-park-ranger-bills/)
+
 ## Currently building
 
 ### WoL Plus
@@ -64,7 +68,7 @@ An Android-first, offline workout tracker that turns training into a lightweight
 
 Both projects are still in active development, so their source code is not publicly available yet.
 
-## Other things I have explored
+## Additional projects
 
 - [How to Karambit](https://github.com/KeyErrorFinn/how-to-fish-karambit-mod), Unity asset replacement, skins, configuration, and custom controls.
 - [RPUK ME Command Visualiser](https://github.com/KeyErrorFinn/rpuk-me-command-visualiser), a React interface for composing and previewing formatted in-game text.
