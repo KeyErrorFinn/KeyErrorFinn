@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Finnley, Data and AI Engineer" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Finnley, Software and AI Engineer" width="100%" />
 </p>
 
 ## Hello, I am Finnley
 
-I am a **Data & AI Engineer** who enjoys turning repetitive, awkward, or interesting problems into focused software. My work centres on full-stack applications, AI-assisted tools, developer automation, cloud delivery, and the occasional desktop app or game mod.
+I am a **Software & AI Engineer** who enjoys turning repetitive, awkward, or interesting problems into focused software. My work centres on full-stack applications, AI-assisted tools, developer automation, cloud delivery, and the occasional desktop app or game mod.
 
 [Browse my repositories](https://github.com/KeyErrorFinn?tab=repositories)
 
